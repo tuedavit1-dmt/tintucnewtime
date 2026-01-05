@@ -1,0 +1,24 @@
+{
+  "name": "rss-news-server",
+  "version": "1.0.0",
+  "description": "API Server lay tin tuc RSS cho ESP32",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "rss",
+    "esp32",
+    "news"
+  ],
+  "author": "ThachCuToe",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "rss-parser": "^3.13.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
